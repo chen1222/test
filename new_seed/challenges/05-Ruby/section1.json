@@ -1,0 +1,105 @@
+{
+  "name": "Ruby - Section 1",
+  "order": 4,
+  "time": "5 hours",
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "bd7123c8c441eddfaeb5bde3",
+      "title": "Ruby Practice",
+      "description": [
+      ],
+      "challengeSeed": [
+        "#! ruby -Ku",
+        "require \"kconv\"\n",
+        "hash = {\"Lemon\" => 100, \"Orange\" => 150, \"Banana\" => 250}\n",
+        "print(Kconv.tosjis(\"eachƒƒ\\ƒbƒh\\n\"));",
+        "hash.each{|key, value|",
+        "  print(key + \"=>\", value, \"\\n\")",
+        "}\n",
+        "print(Kconv.tosjis(\"each_keyƒƒ\\ƒbƒh\\n\"));",
+        "hash.each_key{|key|",
+        "  print(\"key = \" + key + \"\\n\")",
+        "}\n",
+        "print(Kconv.tosjis(\"each_valueƒƒ\\ƒbƒh\\n\"));",
+        "hash.each_value{|value|",
+        "  print(\"value = \", value, \"\\n\")",
+        "}"
+      ],
+      "tests": [
+        {
+          "text": "Your <code>h1</code> element should have the text \"Hello World\".",
+          "testString": "assert.isTrue((/hello(\\s)+world/gi).test($('h1').text()), 'Your <code>h1</code> element should have the text \"Hello World\".');"
+        }
+      ],
+      "type": "waypoint",
+      "challengeType": 0,
+      "translations": {
+        "de": {
+          "description": [
+            "Willkommen bei der ersten Programmier-Challenge von freeCodeCamp!",
+            "Mithilfe des eingebauten <code>text editor</code> kannst du den <code>code</code> bearbeiten.",
+            "Siehst du den Code <code>&#60;h1&#62;Hallo&#60;/h1&#62;</code> im Editor? Das ist ein HTML <code>element</code>",
+            "Die meisten HTML Elemente haben einen <code>opening tag</code> und einen <code>closing tag</code>.",
+            "Öffnende Tags sehen so aus:",
+            "<code>&#60;h1&#62;</code>",
+            "Schließende Tags so:",
+            "<code>&#60;/h1&#62;</code>",
+            "Beachte, dass der einzige Unterschied zwischen öffnenden und schließenden Tags ist, das schließende Tags ein Slash nach der sich öffnenden spitzen Klammer folgt.",
+            "Jede Challenge hat Tests die du jederzeit starten kannst indem du den \"Run tests\" Button drückst. Wenn alle Tests bestehen kannst du mit der nächsten Challenge fortfahren.",
+            "<hr>",
+            "Um den Test dieser Challenge zu bestehen, ändere den Text deines <code>h1</code> Elements von \"Hello\" zu \"Hello World\". Klicke dann den \"Run tests\" Button."
+          ]
+        },
+        "fr": {
+          "title": "Dites bonjour aux éléments HTML",
+          "description": [
+            "Bienvenue au premier défi de code de freeCodeCamp.",
+            "Vous pouvez modifier le <code>code</code> dans votre <code>éditeur texte</code>, lequel est disponible dans cette page.",
+            "Voyez-vous le code dans l'éditeur texte qui dit <code>&#60;h1&#62;Hello&#60;/h1&#62;</code>? C'est un <code>élément</code> HTML.",
+            "La plupart des éléments HTML ont une <code>balise ouvrante</code> et une <code>balise fermante</code>",
+            "Les balises ouvrantes ont cette apparence :",
+            "<code>&#60;h1&#62;</code>",
+            "Les balises fermantes ont cette apparence :",
+            "<code>&#60;/h1&#62;</code>",
+            "Notez que la seule différence entre une balise ouvrante et fermante est que la balise fermante a une barre oblique après son chevron ouvrant.",
+            "Chaque défi contient des tests que vous pouvez éxécuter en cliquant sur le bouton \"Run tests\". Lorsque tous les tests sont réussis, vous pouvez poursuivre avec le défi suivant.",
+            "<hr>",
+            "Pour réussir le test de ce défi, changez le texte de l'élément <code>h1</code> pour \"Hello World\" plutôt que \"Hello\". Cliquez ensuite sur le bouton \"Run tests\"."
+          ]
+        },
+        "pt-br": {
+          "title": "Diga Olá aos Elementos HTML",
+          "description": [
+            "Seja bem vindo ao primeiro desafio de programação do freeCodeCamp!",
+            "Você pode editar o seu <code>código</code> em seu <code>editor de texto</code>, que embutimos aqui nesta página da web.",
+            "Consegue ver o código que diz <code>&#60;h1&#62;Hello&#60;/h1&#62;</code> no seu editor de texto? Esse é um elemento HTML.",
+            "A maioria dos elementos HTML tem uma <code>tag de abertura</code> e uma <code>tag de fechamento</code>.",
+            "As tags de abertura são assim: <code>&#60;h1&#62;</code>. E as tags de fechamento são assim: <code>&#60;/h1&#62;</code>.",
+            "Note que a única diferença entre as tags de abertura e fechamento é que as de fechamento possuem uma barra (/) depois do sinal de abertura (<).",
+            "Cada desafio possui testes que você pode executar a qualquer momento ao clicar no botão \"Executar testes\". Quando você conseguir passar em todos os testes, poderá avançar para o próximo desafio.",
+            "<hr>",
+            "Para passar nos testes deste desafio, mude o texto do elemento <code>h1</code> para que diga \"Hello World\" no lugar de \"Hello\". Depois, clique no botão \"Executar testes\"."
+          ]
+        },
+        "ru": {
+          "title": "Скажи привет HTML-элементам",
+          "description": [
+            "Добро пожаловать на первое программное испытание freeCodeCamp.",
+            "Вы можете редактировать <code>код</code> в вашем <code>текстовом редакторе</code>, который мы встроили в эту web-страницу.",
+            "Видите этот код в вашем текстовом редакторе: <code>&#60;h1&#62;Hello&#60;/h1&#62;</code>? Это HTML <code>элемент</code>.",
+            "Большинство HTML-элементов имеют <code>открывающую метку</code> <code>закрывающую метку</code>.",
+            "Открывающие метки выглядят так:",
+            "<code>&#60;h1&#62;</code>",
+            "Закрывающие метки выглядят следующим образом:",
+            "<code>&#60;/h1&#62;</code>",
+            "Обратите внимание, что единственная разница между открывающими и закрывающими метками заключается в наличии косой черты после открывающей треугольной скобки.",
+            "Каждое испытание имеет функцию проверки решения, которую вы можете запустить в любой момент нажатием на кнопку \"Run tests\". Как только ваше решение будет удовлетворять всем требованиям, вы сможете перейти к следующему испытанию.",
+            "<hr>",
+            "Для прохождения этого испытания измените текст элемента <code>h1</code> с \"Hello\" на \"Hello World\". Затем нажмите кнопку \"Run tests\"."
+          ]
+        }
+      }
+    }
+  ]
+}

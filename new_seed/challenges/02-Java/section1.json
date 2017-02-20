@@ -1,0 +1,35 @@
+{
+  "name": "JAVA - Section 1",
+  "order": 1,
+  "time": "1 hour",
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "587d7b7e367417b2b2512b21",
+      "title": "Java Practice",
+      "description": [
+      ],
+      "challengeSeed": [
+        "class Dog",
+        "{",
+        "    private String Name;\n",
+        "    public void SetName( String nm )",
+        "    {",
+        "        Name = nm;",
+        "    }\n",
+        "    public void ShowProfile()",
+        "    {",
+        "        System.out.println( \"–¼‘O‚ÍA\" + Name + \"‚Å‚·B\" );",
+        "    }",
+        "}"
+      ],
+      "tests": [
+        "assert.strictEqual(Array.isArray(yourArray), true, 'message: yourArray is an array');"
+      ],
+      "type": "waypoint",
+      "solutions": [],
+      "challengeType": 1,
+      "translations": {}
+    }
+  ]
+}
